@@ -1,0 +1,22 @@
+ul{
+    height: 8vh;
+    list-style-type:none;
+    display: flex;
+    gap: 10vw;
+    background:burlywood;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    font-size: x-large;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.active-link{
+    border-bottom: 2px solid black;
+}
+.no-active-link{
+    border-bottom: 2px dotted rgb(4, 4, 161);
+}
